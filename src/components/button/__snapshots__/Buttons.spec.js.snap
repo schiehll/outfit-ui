@@ -1,0 +1,49 @@
+exports[`test should accept a className and merge it 1`] = `
+<button
+  class="default_1hm0j base_1hm0j someClass">
+  Btn
+</button>
+`;
+
+exports[`test should accept props 1`] = `
+<button
+  class="primary_1hm0j base_1hm0j">
+  Btn
+</button>
+`;
+
+exports[`test should accept props 2`] = `
+<button
+  class="success_1hm0j base_1hm0j">
+  Btn
+</button>
+`;
+
+exports[`test should accept props 3`] = `
+<button
+  class="info_1hm0j base_1hm0j">
+  Btn
+</button>
+`;
+
+exports[`test should accept props 4`] = `
+<button
+  class="outline_1hm0j  round_1hm0j default_1hm0j base_1hm0j">
+  Btn
+</button>
+`;
+
+exports[`test should accept props 5`] = `
+<button
+  class="default_1hm0j base_1hm0j"
+  disabled="">
+  Btn
+</button>
+`;
+
+exports[`test should render just fine 1`] = `
+<button
+  class="default_1hm0j base_1hm0j">
+  Btn
+</button>
+`;

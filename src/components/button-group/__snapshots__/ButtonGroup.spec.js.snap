@@ -1,0 +1,69 @@
+exports[`test should accept a className and merge it 1`] = `
+<div
+  class="default_1xgo3 someClass">
+  <button
+    class="default_1hm0j base_1hm0j">
+    Btn 1
+  </button>
+  <button
+    class="default_1hm0j base_1hm0j">
+    Btn 2
+  </button>
+</div>
+`;
+
+exports[`test should accept props and pass the relevant ones down 1`] = `
+<div
+  class="outline_1xgo3">
+  <button
+    class="outline_1hm0j default_1hm0j base_1hm0j">
+    Btn 1
+  </button>
+  <button
+    class="outline_1hm0j default_1hm0j base_1hm0j">
+    Btn 2
+  </button>
+</div>
+`;
+
+exports[`test should accept props and pass the relevant ones down 2`] = `
+<div
+  class="round_1xgo3">
+  <button
+    class="round_1hm0j default_1hm0j base_1hm0j">
+    Btn 1
+  </button>
+  <button
+    class="round_1hm0j default_1hm0j base_1hm0j">
+    Btn 2
+  </button>
+</div>
+`;
+
+exports[`test should accept props and pass the relevant ones down 3`] = `
+<div
+  class="round_1xgo3">
+  <button
+    class="warning_1hm0j base_1hm0j  round_1hm0j">
+    Btn 1
+  </button>
+  <button
+    class="warning_1hm0j base_1hm0j  round_1hm0j">
+    Btn 2
+  </button>
+</div>
+`;
+
+exports[`test should render just fine 1`] = `
+<div
+  class="default_1xgo3">
+  <button
+    class="default_1hm0j base_1hm0j">
+    Btn 1
+  </button>
+  <button
+    class="default_1hm0j base_1hm0j">
+    Btn 2
+  </button>
+</div>
+`;
